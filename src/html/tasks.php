@@ -33,15 +33,17 @@
                                     <h5 class="card-title fw-semibold mb-4">Criar Tarefa</h5>
                                 </div>
                             </div>
-                            <div class="col form-floating mb-3">
-                                <input type="text" class="form-control" id="title" placeholder="nova tarefa">
-                                <label for="floatingInput">Título Tarefa <span class="text-danger-emphasis">*</span></label>
-                            </div>
-                            <div class="col form-floating mb-3">
-                                <input type="text" class="form-control" id="description" placeholder="nova tarefa">
-                                <label for="floatingInput">Descrição Tarefa <span class="text-danger-emphasis">*</span></label>
-                            </div>
-                            <button type="button" class="btn btn-success mx-auto d-block fs-4 fw-semibold">Criar Tarefa</button>
+                            <form action="form_validation.php" method="POST">
+                                <div class="col form-floating mb-3">
+                                    <input type="text" class="form-control" id="cliente" name="cliente" placeholder="nova tarefa" required>
+                                    <label for="cliente">Título Tarefa <span class="text-danger-emphasis">*</span></label>
+                                </div>
+                                <div class="col form-floating mb-3">
+                                    <input type="text" class="form-control" id="descricao" name="descricao" placeholder="nova tarefa" required>
+                                    <label for="descricao">Descrição Tarefa <span class="text-danger-emphasis">*</span></label>
+                                </div>
+                                <button type="submit" class="btn btn-success mx-auto d-block fs-4 fw-semibold">Criar Tarefa</button>
+                            </form>
                         </div>
                     </div>
                     <dic class="card">
