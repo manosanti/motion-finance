@@ -47,7 +47,10 @@
                     <dic class="card">
                         <div class="card-body">
                             <div class="row">
-                            <h5 class="card-title fw-semibold mb-4">Tarefas</h5>
+                            <h5 class="card-title fw-semibold fs-4">Tarefas</h5>
+                            <?php
+                            include 'task-search.php';
+                            ?>
                             </div>
                         </div>
                     </dic>
