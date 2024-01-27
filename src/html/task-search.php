@@ -9,8 +9,8 @@ include 'connection.php';
                 <th>Data de Criação</th>
                 <th>Cliente</th>
                 <th>Descrição</th>
-                <th></th>
-                <th></th>
+                <th class="col-1"></th>
+                <th class="col-1"></th>
             </tr>
         </thead>
         <tbody>
